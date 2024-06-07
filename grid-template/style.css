@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+body{
+    padding: 20px 50px;
+}
+
+.genel{
+    /* width: 100%;
+    height: 100vh; */
+    /* margin: 20px 40px; */
+   background: linear-gradient(to left top, transparent, rgba(0, 9, 30, 1) 0%,
+   rgba(220, 110, 94, 1) 0%,
+   rgba(253, 116, 23, 1) 100%  );
+   color: white;
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.satirlar div{
+    padding: 80px;
+    /* border: 1px solid white; */
+    display: inline-block;
+    margin: 80px;
+}
+
+#hucre-1{
+    border: none; 
+}
+
+#hucre-2{
+    border: 7px dotted white;
+}
+
+#hucre-3{
+    border: 7px dashed white;
+}
+
+#hucre-4{
+    border: 7px solid white;
+}
+
+#hucre-5{
+    border: 7px double white;
+}
+
+#hucre-6{
+    border: 7px groove white;
+}
+
+#hucre-7{
+    border: 7px ridge white;
+}
+
+#hucre-8{
+    border: 7px inset white;
+}
+
+#hucre-9{
+    border: 7px outset white;
+}
