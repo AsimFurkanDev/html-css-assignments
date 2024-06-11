@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+}
+
+.container {
+  width: 100%;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  margin: 5px;
+}
+
+.box1,
+.box2,
+.box3 {
+  float: left;
+}
+
+.box4,
+.box5,
+.box6 {
+  float: right;
+}
+
+.box7 {
+  float: left;
+  clear: left;
+}
+
+.box8 {
+  float: right;
+  clear: right;
+}
+
+.box9 {
+  float: left;
+  clear: left;
+}
+
+.box10 {
+  float: right;
+  /* clear: right; */
+}
+.box11{
+ float: left;
+} 
+.box12 {
+  float: right;
+  clear: both;
+}
+
+.box13{
+    float: left;
+    clear: left;
+}
+
+.box14{
+    float: right;
+    clear: right;
+}
+
+.box15{
+    float: left;
+    clear: left;
+}
+
+.box16,
+.box17{
+    float: right;
+}
