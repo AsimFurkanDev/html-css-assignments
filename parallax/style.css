@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.photo{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    font-size: 40px;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.title1{
+    background-color: rgba(30, 97, 45, 0.4);
+}
+
+.title2{
+    background-color: rgba(181, 13, 10, 0.4);
+}
+
+.title3{
+    background-color: rgba(110, 137, 166, 0.4);
+}
+
+.title4{
+    background-color: rgba(85, 99, 18, 0.4);
+}
+
+.title5{
+    background-color: rgba(167, 185, 197, 0.4);
+}
+
+.title6{
+    background-color: rgba(108, 84, 59, 0.4);
+}
+
+.title7{
+    background-color: rgba(119, 150, 154, 0.4);
+}
+
+.photo1{
+    background-image: url(images/great_wall_of_china.jpg);
+}
+
+.photo2{
+    background-image: url(images/petra.jpg);
+}
+
+.photo3{
+    background-image: url(images/christ_rio.jpg);
+}
+
+.photo4{
+    background-image: url(images/Machu_Picchu.jpg);
+}
+
+.photo5{
+    background-image: url(images/Chichen_Itza.jpg);
+}
+
+.photo6{
+    background-image: url(images/Roman_olosseum.jpg);
+}
+
+.photo7{
+    background-image: url(images/Taj_Mahal.jpg);
+}
+
+.text{
+    font-size: 24px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.text1{
+    background-color: #fab21683;
+}
+
+.text2{
+    background-color: #a11920;
+}
+
+.text3{
+    background-color:#52667a;
+}
+
+.text4{
+    background-color:#33391B ;
+}
+
+.text5{
+    background-color:#C4C5C1 ;
+}
+
+.text6{
+    background-color:#9c7848;
+}
+
+.text7{
+    background-color:#7D9EA3 ;
+}
