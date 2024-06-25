@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 100%;
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  background-color: #F5F5F5;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+}
+
+.head-left {
+  display: flex;
+  align-items: center;
+}
+
+.head-left img {
+  width: 4.2rem;
+  height: 4.2rem;
+}
+
+.head-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #21889f;
+  color: white;
+  padding-left: 2rem;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  font-family: "Kenia", sans-serif;
+  font-size: 2rem;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-right img {
+  width: 4.2rem;
+  height: 4.2rem;
+}
+
+main {
+  display: flex;
+}
+
+.main-left {
+  width: 70%;
+  margin-top: 2rem;
+  margin-left: 30rem;
+ 
+
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: 3px 3px 3px gray;
+  background-color: white;
+}
+
+li {
+  padding: 1rem;
+  list-style-type: none;
+}
+
+.home {
+  background-color: #d6e8ec;
+  border-radius: 0.7rem;
+}
+
+.main-right {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.main-right-box {
+  box-shadow: 3px 3px 3px gray;
+  padding: 0.7rem;
+  width: 60%;
+  background-color: white;
+}
+
+.main-right-box h2 {
+  color: rgb(32, 136, 159);
+  width: 60%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  border-bottom: 2px solid #808080;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.7rem;
+}
+
+.card img {
+  width: 5rem;
+  height: 4.5rem;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.newlist {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.explorings {
+  width: 50%;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.images {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #56a0b2;
+  border-radius: 0.5rem;
+}
+
+.images img {
+  width: 80%;
+  height: 75%;
+  border-radius: 0.4rem;
+}
+
+.exploring h6 {
+  font-size: 15px;
+}
+
+.exploring p {
+  font-size: 12px;
+}
+
+.topNews {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.news h6{
+    font-size: 19px;
+}
+
+.news p{
+    font-size: 16px;
+}
